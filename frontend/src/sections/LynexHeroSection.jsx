@@ -59,7 +59,7 @@
             We Engineer
           </span>
           <span className="leading-[normal]">{` `}</span>
-          <span className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[normal]">Digital Growth.</span>
+          <span className="font-cormorant font-medium italic leading-[normal]">Digital Growth.</span>
         </p>
       </div>
       <p className="-translate-x-1/2 absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[calc(8.33%+600px)] text-[#616161] text-[16px] text-center top-[362px] whitespace-nowrap" data-node-id="2:2296" style={{ fontVariationSettings: "'opsz' 14" }}>

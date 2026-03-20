@@ -5,7 +5,7 @@
         <div className="-translate-x-1/2 absolute h-[102px] left-[calc(50%+0.5px)] top-0 w-[593px]" data-node-id="6:295">
           <p className="-translate-x-1/2 absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="6:296" style={{ fontVariationSettings: "'opsz' 14" }}>
             <span className="leading-[normal]">{`Benefits of Choosing `}</span>
-            <span className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[normal]">Lynex.</span>
+            <span className="font-cormorant font-medium italic leading-[normal]">Lynex.</span>
           </p>
           <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-1/2 px-[12px] py-[4px] rounded-[27px] top-0" data-node-id="6:297">
             <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="6:298" style={{ fontVariationSettings: "'opsz' 14" }}>

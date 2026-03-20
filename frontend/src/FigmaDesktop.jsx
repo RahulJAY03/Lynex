@@ -84,9 +84,9 @@ export default function Desktop() {
         <div className="h-[102px] relative shrink-0 w-[538px]" data-node-id="6:293">
           <p className="-translate-x-1/2 absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="6:135" style={{ fontVariationSettings: "'opsz' 14" }}>
             <span className="leading-[normal]">{`Bold `}</span>
-            <span className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[normal]">ideas,</span>
+            <span className="font-cormorant font-medium italic leading-[normal]">ideas,</span>
             <span className="leading-[normal]">{` built to `}</span>
-            <span className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[normal]">perform.</span>
+            <span className="font-cormorant font-medium italic leading-[normal]">perform.</span>
           </p>
           <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[calc(50%+0.5px)] px-[12px] py-[4px] rounded-[27px] top-0" data-node-id="6:136">
             <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="6:137" style={{ fontVariationSettings: "'opsz' 14" }}>
@@ -135,7 +135,7 @@ export default function Desktop() {
           <div className="h-[102px] relative shrink-0 w-[712px]" data-node-id="56:2">
             <p className="-translate-x-1/2 absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="56:3" style={{ fontVariationSettings: "'opsz' 14" }}>
               <span className="leading-[normal]">Transparent pricing,</span>
-              <span className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[normal]">{` no hidden fees.`}</span>
+              <span className="font-cormorant font-medium italic leading-[normal]">{` no hidden fees.`}</span>
             </p>
             <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[calc(50%+0.5px)] px-[12px] py-[4px] rounded-[27px] top-0" data-node-id="56:4">
               <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="56:5" style={{ fontVariationSettings: "'opsz' 14" }}>
@@ -481,7 +481,7 @@ export default function Desktop() {
       <div className="-translate-x-1/2 absolute h-[102px] left-1/2 top-[9212px] w-[916px]" data-node-id="70:426">
         <p className="-translate-x-1/2 absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="70:427" style={{ fontVariationSettings: "'opsz' 14" }}>
           <span className="leading-[normal]">{`We love what we do, and `}</span>
-          <span className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[normal]">they love the results.</span>
+          <span className="font-cormorant font-medium italic leading-[normal]">they love the results.</span>
         </p>
         <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-1/2 px-[12px] py-[4px] rounded-[27px] top-0" data-node-id="70:428">
           <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="70:429" style={{ fontVariationSettings: "'opsz' 14" }}>

@@ -265,12 +265,12 @@
           <div className="-translate-x-1/2 absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="2:2375" style={{ fontVariationSettings: "'opsz' 14" }}>
             <p className="mb-0">
               <span className="leading-[normal]">{`We help brands show up with `}</span>
-              <span className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[normal]">Clarity,</span>
+              <span className="font-cormorant font-medium italic leading-[normal]">Clarity,</span>
             </p>
             <p>
-              <span className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[normal]">Confidence,</span>
+              <span className="font-cormorant font-medium italic leading-[normal]">Confidence,</span>
               <span className="leading-[normal]">{` and `}</span>
-              <span className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[normal]">Design</span>
+              <span className="font-cormorant font-medium italic leading-[normal]">Design</span>
               <span className="leading-[normal]">{` that actually work`}</span>
             </p>
           </div>
