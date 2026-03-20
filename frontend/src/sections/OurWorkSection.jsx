@@ -1,14 +1,14 @@
-﻿export default function OurWorkSection({ assets }) {
+export default function OurWorkSection({ assets }) {
   return (
     <>
       <div className="absolute h-[1413px] left-[160px] top-[6533px] w-[1120px]" data-node-id="70:423">
         <div className="absolute h-[62px] left-px top-0 w-[1119px]" data-node-id="37:3">
-          <p className="absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[0] left-0 text-[48px] text-black top-0 whitespace-nowrap" data-node-id="26:47" style={{ fontVariationSettings: "'opsz' 14" }}>
+          <p className="absolute font-dm font-medium leading-[0] left-0 text-[48px] text-black top-0 whitespace-nowrap" data-node-id="26:47" style={{ fontVariationSettings: "'opsz' 14" }}>
             <span className="leading-[normal]">{`Some of Our `}</span>
             <span className="font-cormorant font-medium italic leading-[normal]">Work.</span>
           </p>
           <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[calc(50%+521.5px)] px-[12px] py-[4px] rounded-[27px] top-[19px]" data-node-id="26:48">
-            <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="26:49" style={{ fontVariationSettings: "'opsz' 14" }}>
+            <p className="font-dm font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="26:49" style={{ fontVariationSettings: "'opsz' 14" }}>
               WORKS
             </p>
           </div>

@@ -1,4 +1,4 @@
-﻿import LynexHeroSection from './sections/LynexHeroSection'
+import LynexHeroSection from './sections/LynexHeroSection'
 import ServicesSection from './sections/ServicesSection'
 import BenefitsSection from './sections/BenefitsSection'
 import OurWorkSection from './sections/OurWorkSection'
@@ -82,14 +82,14 @@ export default function Desktop() {
       <ServicesSection assets={assets} />
       <div className="absolute content-stretch flex flex-col gap-[48px] items-center left-[160px] top-[4380px] w-[1120px]" data-node-id="135:2">
         <div className="h-[102px] relative shrink-0 w-[538px]" data-node-id="6:293">
-          <p className="-translate-x-1/2 absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="6:135" style={{ fontVariationSettings: "'opsz' 14" }}>
+          <p className="-translate-x-1/2 absolute font-dm font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="6:135" style={{ fontVariationSettings: "'opsz' 14" }}>
             <span className="leading-[normal]">{`Bold `}</span>
             <span className="font-cormorant font-medium italic leading-[normal]">ideas,</span>
             <span className="leading-[normal]">{` built to `}</span>
             <span className="font-cormorant font-medium italic leading-[normal]">perform.</span>
           </p>
           <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[calc(50%+0.5px)] px-[12px] py-[4px] rounded-[27px] top-0" data-node-id="6:136">
-            <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="6:137" style={{ fontVariationSettings: "'opsz' 14" }}>
+            <p className="font-dm font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="6:137" style={{ fontVariationSettings: "'opsz' 14" }}>
               HOW IT WORKS
             </p>
           </div>
@@ -98,30 +98,30 @@ export default function Desktop() {
           <div className="absolute border-[#d2d2d2] border-[0.5px] border-solid h-[478px] left-0 overflow-clip rounded-[24px] top-0 w-[352px]" data-node-id="6:139">
             <div className="-translate-x-1/2 absolute bg-[#fbfbfb] border-[#d2d2d2] border-[0.5px] border-solid h-[307px] left-1/2 rounded-[16px] top-[31.5px] w-[288px]" data-node-id="6:144" />
             <div className="absolute h-[81px] leading-[normal] left-[31.5px] top-[368.5px] w-[283px]" data-node-id="6:279">
-              <p className="-translate-x-1/2 absolute font-['DM_Sans:Regular',sans-serif] font-normal left-[56px] text-[24px] text-black text-center top-0 whitespace-nowrap" data-node-id="6:277" style={{ fontVariationSettings: "'opsz' 14" }}>
+              <p className="-translate-x-1/2 absolute font-dm font-normal left-[56px] text-[24px] text-black text-center top-0 whitespace-nowrap" data-node-id="6:277" style={{ fontVariationSettings: "'opsz' 14" }}>
                 Subscribe
               </p>
-              <p className="absolute font-['DM_Sans:Light',sans-serif] font-light left-0 text-[#616161] text-[16px] top-[39px] w-[283px]" data-node-id="6:278" style={{ fontVariationSettings: "'opsz' 14" }}>{`Choose a plan that suits your needs & request as many designs as youâ€™d like.`}</p>
+              <p className="absolute font-dm font-light left-0 text-[#616161] text-[16px] top-[39px] w-[283px]" data-node-id="6:278" style={{ fontVariationSettings: "'opsz' 14" }}>{`Choose a plan that suits your needs & request as many designs as you’d like.`}</p>
             </div>
           </div>
           <div className="absolute border-[#d2d2d2] border-[0.5px] border-solid h-[478px] left-[384px] overflow-clip rounded-[24px] top-0 w-[352px]" data-node-id="6:145">
             <div className="-translate-x-1/2 absolute bg-[#fbfbfb] border-[#d2d2d2] border-[0.5px] border-solid h-[307px] left-1/2 rounded-[16px] top-[31.5px] w-[288px]" data-node-id="6:280" />
             <div className="absolute h-[81px] leading-[normal] left-[31.5px] top-[368.5px] w-[283px]" data-node-id="6:284">
-              <p className="absolute font-['DM_Sans:Regular',sans-serif] font-normal left-0 text-[24px] text-black top-0 whitespace-nowrap" data-node-id="6:285" style={{ fontVariationSettings: "'opsz' 14" }}>
+              <p className="absolute font-dm font-normal left-0 text-[24px] text-black top-0 whitespace-nowrap" data-node-id="6:285" style={{ fontVariationSettings: "'opsz' 14" }}>
                 Plan
               </p>
-              <p className="absolute font-['DM_Sans:Light',sans-serif] font-light left-0 text-[#616161] text-[16px] top-[39px] w-[283px]" data-node-id="6:286" style={{ fontVariationSettings: "'opsz' 14" }}>
-                Share your design needs. Branding, UI/UX, or development. Weâ€™ll get it done.
+              <p className="absolute font-dm font-light left-0 text-[#616161] text-[16px] top-[39px] w-[283px]" data-node-id="6:286" style={{ fontVariationSettings: "'opsz' 14" }}>
+                Share your design needs. Branding, UI/UX, or development. We’ll get it done.
               </p>
             </div>
           </div>
           <div className="absolute border-[#d2d2d2] border-[0.5px] border-solid h-[478px] left-[768px] overflow-clip rounded-[24px] top-0 w-[352px]" data-node-id="6:148">
             <div className="-translate-x-1/2 absolute bg-[#fbfbfb] border-[#d2d2d2] border-[0.5px] border-solid h-[307px] left-1/2 rounded-[16px] top-[31.5px] w-[288px]" data-node-id="6:282" />
             <div className="absolute h-[81px] leading-[normal] left-[31.5px] top-[368.5px] w-[283px]" data-node-id="6:288">
-              <p className="absolute font-['DM_Sans:Regular',sans-serif] font-normal left-0 text-[24px] text-black top-0 whitespace-nowrap" data-node-id="6:289" style={{ fontVariationSettings: "'opsz' 14" }}>
+              <p className="absolute font-dm font-normal left-0 text-[24px] text-black top-0 whitespace-nowrap" data-node-id="6:289" style={{ fontVariationSettings: "'opsz' 14" }}>
                 Deploy
               </p>
-              <p className="absolute font-['DM_Sans:Light',sans-serif] font-light left-0 text-[#616161] text-[16px] top-[39px] w-[283px]" data-node-id="6:290" style={{ fontVariationSettings: "'opsz' 14" }}>
+              <p className="absolute font-dm font-light left-0 text-[#616161] text-[16px] top-[39px] w-[283px]" data-node-id="6:290" style={{ fontVariationSettings: "'opsz' 14" }}>
                 Receive your final work within few days. We stay ready for your next task.
               </p>
             </div>
@@ -133,12 +133,12 @@ export default function Desktop() {
       <div className="absolute content-stretch flex flex-col gap-[32px] items-start left-[160px] top-[8106px] w-[1120px]" data-node-id="135:4">
         <div className="content-stretch flex flex-col gap-[48px] items-center relative shrink-0 w-full" data-node-id="135:3">
           <div className="h-[102px] relative shrink-0 w-[712px]" data-node-id="56:2">
-            <p className="-translate-x-1/2 absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="56:3" style={{ fontVariationSettings: "'opsz' 14" }}>
+            <p className="-translate-x-1/2 absolute font-dm font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="56:3" style={{ fontVariationSettings: "'opsz' 14" }}>
               <span className="leading-[normal]">Transparent pricing,</span>
               <span className="font-cormorant font-medium italic leading-[normal]">{` no hidden fees.`}</span>
             </p>
             <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[calc(50%+0.5px)] px-[12px] py-[4px] rounded-[27px] top-0" data-node-id="56:4">
-              <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="56:5" style={{ fontVariationSettings: "'opsz' 14" }}>
+              <p className="font-dm font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="56:5" style={{ fontVariationSettings: "'opsz' 14" }}>
                 WEB DEV PRICING
               </p>
             </div>
@@ -147,28 +147,28 @@ export default function Desktop() {
             <div className="absolute bg-white border-[#d2d2d2] border-[0.5px] border-solid h-[637px] left-0 overflow-clip rounded-[12px] top-0 w-[352px]" data-node-id="56:7">
               <div className="-translate-x-1/2 absolute bg-white border-[#d2d2d2] border-[0.5px] border-solid content-stretch flex h-[40px] items-center justify-center left-1/2 px-[86px] py-[12px] rounded-[4px] top-[576.5px]" data-node-id="66:383">
                 <div className="content-stretch flex items-center relative shrink-0" data-node-id="66:384">
-                  <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#f73000] text-[12px] whitespace-nowrap" data-node-id="66:385">
+                  <p className="font-dm font-normal leading-[normal] not-italic relative shrink-0 text-[#f73000] text-[12px] whitespace-nowrap" data-node-id="66:385">
                     Schedule a Quick Meeting
                   </p>
                 </div>
               </div>
               <div className="-translate-x-1/2 absolute bg-[#fbfbfb] border-[#d2d2d2] border-[0.5px] border-solid h-[194px] leading-[normal] left-1/2 overflow-clip rounded-[16px] top-[15.5px] w-[320px]" data-node-id="56:13">
-                <p className="absolute font-['DM_Sans:Medium',sans-serif] font-medium left-[16px] text-[24px] text-black top-[12px] whitespace-nowrap" data-node-id="56:26" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-medium left-[16px] text-[24px] text-black top-[12px] whitespace-nowrap" data-node-id="56:26" style={{ fontVariationSettings: "'opsz' 14" }}>
                   Foundation
                 </p>
-                <p className="absolute font-['DM_Sans:Light',sans-serif] font-light left-[16px] text-[#616161] text-[16px] top-[51px] w-[283px]" data-node-id="56:34" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-light left-[16px] text-[#616161] text-[16px] top-[51px] w-[283px]" data-node-id="56:34" style={{ fontVariationSettings: "'opsz' 14" }}>
                   Build your digital presence with clarity and confidence.
                 </p>
-                <p className="absolute font-['DM_Sans:Light',sans-serif] font-light left-[16px] text-[#616161] text-[16px] top-[161px] whitespace-nowrap" data-node-id="56:37" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-light left-[16px] text-[#616161] text-[16px] top-[161px] whitespace-nowrap" data-node-id="56:37" style={{ fontVariationSettings: "'opsz' 14" }}>
                   One-time project investment
                 </p>
-                <p className="absolute font-['DM_Sans:Bold',sans-serif] font-bold left-[16px] text-[40px] text-black top-[101px] tracking-[-2.4px] whitespace-nowrap" data-node-id="56:36" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-bold left-[16px] text-[40px] text-black top-[101px] tracking-[-2.4px] whitespace-nowrap" data-node-id="56:36" style={{ fontVariationSettings: "'opsz' 14" }}>
                   LKR 95,000
                 </p>
               </div>
               <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-[15.5px] top-[225.5px] w-[313px]" data-node-id="58:369">
                 <div className="h-[21px] relative shrink-0 w-[138px]" data-node-id="58:199">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:200" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:200" style={{ fontVariationSettings: "'opsz' 14" }}>
                     limited Pages
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:201">
@@ -176,7 +176,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[171px]" data-node-id="58:203">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:204" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:204" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Custom UI Design
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:205">
@@ -184,7 +184,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[184px]" data-node-id="58:207">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:208" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:208" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Basic On-Page SEO
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:209">
@@ -192,7 +192,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[220px]" data-node-id="58:215">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:216" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:216" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Personalized business research
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:217">
@@ -200,7 +200,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[226px]" data-node-id="58:223">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:224" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:224" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Responsive Development
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:225">
@@ -208,7 +208,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-full" data-node-id="58:219">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:220" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:220" style={{ fontVariationSettings: "'opsz' 14" }}>
                     1 Month Complimentary Maintenance
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:221">
@@ -218,7 +218,7 @@ export default function Desktop() {
               </div>
               <div className="-translate-x-1/2 absolute bg-[#f73000] content-stretch flex items-center justify-center left-1/2 px-[102px] py-[10px] rounded-[4px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-[528.5px]" data-node-id="66:377">
                 <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="66:382">
-                  <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="66:378">
+                  <p className="font-dm font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="66:378">
                     Subscribe now
                   </p>
                   <div className="flex items-center justify-center relative shrink-0 size-[20px]" style={{ "--transform-inner-width": "0", "--transform-inner-height": "0" }}>
@@ -234,7 +234,7 @@ export default function Desktop() {
             <div className="absolute bg-white border-[#d2d2d2] border-[0.5px] border-solid h-[637px] left-[384px] overflow-clip rounded-[12px] shadow-[0px_4px_15px_-2px_rgba(0,0,0,0.25)] top-0 w-[352px]" data-node-id="56:12">
               <div className="-translate-x-1/2 absolute bg-white border-[#d2d2d2] border-[0.5px] border-solid content-stretch flex h-[40px] items-center justify-center left-1/2 px-[86px] py-[12px] rounded-[4px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-[576.5px]" data-node-id="66:394">
                 <div className="content-stretch flex items-center relative shrink-0" data-node-id="66:395">
-                  <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#f73000] text-[12px] whitespace-nowrap" data-node-id="66:396">
+                  <p className="font-dm font-normal leading-[normal] not-italic relative shrink-0 text-[#f73000] text-[12px] whitespace-nowrap" data-node-id="66:396">
                     Schedule a Quick Meeting
                   </p>
                 </div>
@@ -246,26 +246,26 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="-translate-x-1/2 absolute border-[#f73000] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[calc(50%+111.5px)] px-[4px] py-[2px] rounded-[27px] top-[19px]" data-node-id="56:81">
-                  <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#f73000] text-[8px] whitespace-nowrap" data-node-id="56:82" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="font-dm font-medium leading-[normal] relative shrink-0 text-[#f73000] text-[8px] whitespace-nowrap" data-node-id="56:82" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Most Popular :)
                   </p>
                 </div>
-                <p className="absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] left-[16px] text-[24px] text-black top-[12px] whitespace-nowrap" data-node-id="56:76" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-medium leading-[normal] left-[16px] text-[24px] text-black top-[12px] whitespace-nowrap" data-node-id="56:76" style={{ fontVariationSettings: "'opsz' 14" }}>
                   Growth
                 </p>
-                <p className="absolute bg-clip-text font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[calc(50%-144px)] text-[16px] text-[transparent] top-[51px] w-[288px]" data-node-id="56:77" style={{ fontVariationSettings: "'opsz' 14", backgroundImage: "linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 62.045%, rgb(242, 242, 242) 69.238%, rgb(255, 255, 255) 100%)" }}>
+                <p className="absolute bg-clip-text font-dm font-light leading-[normal] left-[calc(50%-144px)] text-[16px] text-[transparent] top-[51px] w-[288px]" data-node-id="56:77" style={{ fontVariationSettings: "'opsz' 14", backgroundImage: "linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 62.045%, rgb(242, 242, 242) 69.238%, rgb(255, 255, 255) 100%)" }}>
                   Designed to attract traffic and convert visitors into leads.
                 </p>
-                <p className="absolute bg-clip-text bg-gradient-to-r font-['DM_Sans:Light',sans-serif] font-light from-[41.638%] from-white leading-[normal] left-[16px] text-[16px] text-[transparent] to-[#0d0c0c] top-[161px] via-[#2a2a2a] via-[41.721%] whitespace-nowrap" data-node-id="56:78" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute bg-clip-text bg-gradient-to-r font-dm font-light from-[41.638%] from-white leading-[normal] left-[16px] text-[16px] text-[transparent] to-[#0d0c0c] top-[161px] via-[#2a2a2a] via-[41.721%] whitespace-nowrap" data-node-id="56:78" style={{ fontVariationSettings: "'opsz' 14" }}>
                   Strategic growth-focused build.
                 </p>
-                <p className="absolute font-['DM_Sans:Bold',sans-serif] font-bold leading-[normal] left-[16px] text-[40px] text-black top-[101px] tracking-[-2.4px] whitespace-nowrap" data-node-id="56:79" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-bold leading-[normal] left-[16px] text-[40px] text-black top-[101px] tracking-[-2.4px] whitespace-nowrap" data-node-id="56:79" style={{ fontVariationSettings: "'opsz' 14" }}>
                   LKR 160,000
                 </p>
               </div>
               <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-[15.5px] top-[225.5px] w-[285px]" data-node-id="58:292">
                 <div className="h-[21px] relative shrink-0 w-[158px]" data-node-id="58:293">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:294" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:294" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Unlimited Pages
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:295">
@@ -273,7 +273,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[171px]" data-node-id="58:297">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:298" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:298" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Custom UI With Advanced UX Strategy
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:299">
@@ -281,7 +281,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[226px]" data-node-id="58:317">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:318" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:318" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Conversion-Focused Structure
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:319">
@@ -289,7 +289,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[191px]" data-node-id="58:301">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:302" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:302" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Advanced On-Page SEO
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:303">
@@ -297,7 +297,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[257px]" data-node-id="58:305">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:306" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:306" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Performance Optimization
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:307">
@@ -305,13 +305,13 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[220px]" data-node-id="58:309">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:310" style={{ fontVariationSettings: "'opsz' 14" }}>{`Analytics & Tracking Setup`}</p>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:310" style={{ fontVariationSettings: "'opsz' 14" }}>{`Analytics & Tracking Setup`}</p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:311">
                     <img alt="" className="absolute block max-w-none size-full" src={imgHugeiconsTick4} />
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[220px]" data-node-id="58:359">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:360" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:360" style={{ fontVariationSettings: "'opsz' 14" }}>
                     24 x 7 Customer Support
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:361">
@@ -319,7 +319,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-full" data-node-id="58:313">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:314" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:314" style={{ fontVariationSettings: "'opsz' 14" }}>
                     6 Months Complimentary Maintenance
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:315">
@@ -329,7 +329,7 @@ export default function Desktop() {
               </div>
               <div className="-translate-x-1/2 absolute bg-[#f73000] content-stretch flex items-center justify-center left-1/2 px-[102px] py-[10px] rounded-[4px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-[528.5px]" data-node-id="66:389">
                 <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="66:390">
-                  <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="66:391">
+                  <p className="font-dm font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="66:391">
                     Subscribe now
                   </p>
                   <div className="flex items-center justify-center relative shrink-0 size-[20px]" style={{ "--transform-inner-width": "0", "--transform-inner-height": "0" }}>
@@ -345,33 +345,33 @@ export default function Desktop() {
             <div className="absolute bg-white border-[#d2d2d2] border-[0.5px] border-solid h-[637px] left-[768px] overflow-clip rounded-[12px] top-0 w-[352px]" data-node-id="56:17">
               <div className="-translate-x-1/2 absolute bg-white border-[#d2d2d2] border-[0.5px] border-solid content-stretch flex h-[40px] items-center justify-center left-1/2 px-[86px] py-[12px] rounded-[4px] top-[576.5px]" data-node-id="66:403">
                 <div className="content-stretch flex items-center relative shrink-0" data-node-id="66:404">
-                  <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#f73000] text-[12px] whitespace-nowrap" data-node-id="66:405">
+                  <p className="font-dm font-normal leading-[normal] not-italic relative shrink-0 text-[#f73000] text-[12px] whitespace-nowrap" data-node-id="66:405">
                     Schedule a Quick Meeting
                   </p>
                 </div>
               </div>
               <div className="-translate-x-1/2 absolute bg-[#fbfbfb] border-[#d2d2d2] border-[0.5px] border-solid h-[194px] left-1/2 overflow-clip rounded-[16px] top-[15.5px] w-[320px]" data-node-id="56:45">
-                <p className="absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] left-[16px] text-[24px] text-black top-[12px] whitespace-nowrap" data-node-id="56:46" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-medium leading-[normal] left-[16px] text-[24px] text-black top-[12px] whitespace-nowrap" data-node-id="56:46" style={{ fontVariationSettings: "'opsz' 14" }}>
                   Authority
                 </p>
-                <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[16px] text-[#616161] text-[16px] top-[51px] w-[288px]" data-node-id="56:47" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-light leading-[normal] left-[16px] text-[#616161] text-[16px] top-[51px] w-[288px]" data-node-id="56:47" style={{ fontVariationSettings: "'opsz' 14" }}>
                   A fully engineered system for brands ready to lead.
                 </p>
-                <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[16px] text-[#616161] text-[16px] top-[161px] whitespace-nowrap" data-node-id="56:48" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-light leading-[normal] left-[16px] text-[#616161] text-[16px] top-[161px] whitespace-nowrap" data-node-id="56:48" style={{ fontVariationSettings: "'opsz' 14" }}>
                   Custom scope based on complexity.
                 </p>
-                <p className="absolute font-['DM_Sans:Bold',sans-serif] font-bold leading-[normal] left-[16px] text-[40px] text-black top-[101px] tracking-[-2.4px] whitespace-nowrap" data-node-id="56:49" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-bold leading-[normal] left-[16px] text-[40px] text-black top-[101px] tracking-[-2.4px] whitespace-nowrap" data-node-id="56:49" style={{ fontVariationSettings: "'opsz' 14" }}>
                   LKR 220,000+
                 </p>
                 <div className="-translate-x-1/2 absolute border-[#f73000] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[calc(50%+120.5px)] px-[4px] py-[2px] rounded-[27px] top-[19px]" data-node-id="56:84">
-                  <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#f73000] text-[8px] whitespace-nowrap" data-node-id="56:85" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="font-dm font-medium leading-[normal] relative shrink-0 text-[#f73000] text-[8px] whitespace-nowrap" data-node-id="56:85" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Best Deal!
                   </p>
                 </div>
               </div>
               <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-[15.5px] top-[225.5px] w-[313px]" data-node-id="58:353">
                 <div className="h-[21px] relative shrink-0 w-[158px]" data-node-id="58:324">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:325" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:325" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Unlimited Pages
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:326">
@@ -379,7 +379,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[239px]" data-node-id="58:328">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:329" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:329" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Custom UI With Advanced UX Strategy
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:330">
@@ -387,13 +387,13 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[226px]" data-node-id="58:348">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:349" style={{ fontVariationSettings: "'opsz' 14" }}>{`Funnel & Conversion Planning`}</p>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:349" style={{ fontVariationSettings: "'opsz' 14" }}>{`Funnel & Conversion Planning`}</p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:350">
                     <img alt="" className="absolute block max-w-none size-full" src={imgHugeiconsTick4} />
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[184px]" data-node-id="58:332">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:333" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:333" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Technical SEO Architecture
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:334">
@@ -401,7 +401,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[225px]" data-node-id="58:336">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:337" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:337" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Core Web Vitals Optimization
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:338">
@@ -409,7 +409,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[299px]" data-node-id="58:340">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:341" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:341" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Advanced Integrations (CRM / Payments)
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:342">
@@ -417,7 +417,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-[299px]" data-node-id="58:354">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:355" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-px whitespace-nowrap" data-node-id="58:355" style={{ fontVariationSettings: "'opsz' 14" }}>
                     24 x 7 Customer Support
                   </p>
                   <div className="absolute left-0 size-[20px] top-0" data-name="hugeicons:tick-02" data-node-id="58:356">
@@ -425,7 +425,7 @@ export default function Desktop() {
                   </div>
                 </div>
                 <div className="h-[21px] relative shrink-0 w-full" data-node-id="58:344">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:345" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[normal] left-[36px] text-[14px] text-black top-[2px] whitespace-nowrap" data-node-id="58:345" style={{ fontVariationSettings: "'opsz' 14" }}>
                     12 Months Complimentary Maintenance
                   </p>
                   <div className="absolute left-0 size-[20px] top-px" data-name="hugeicons:tick-02" data-node-id="58:346">
@@ -435,7 +435,7 @@ export default function Desktop() {
               </div>
               <div className="-translate-x-1/2 absolute bg-[#f73000] content-stretch flex items-center justify-center left-1/2 px-[102px] py-[10px] rounded-[4px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-[528.5px]" data-node-id="66:398">
                 <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="66:399">
-                  <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="66:400">
+                  <p className="font-dm font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="66:400">
                     Subscribe now
                   </p>
                   <div className="flex items-center justify-center relative shrink-0 size-[20px]" style={{ "--transform-inner-width": "0", "--transform-inner-height": "0" }}>
@@ -452,23 +452,23 @@ export default function Desktop() {
         </div>
         <div className="border-[#d2d2d2] border-[0.5px] border-solid h-[127px] overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="70:407">
           <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[82px] left-[calc(50%-0.5px)] top-[calc(50%+0.5px)] w-[1037px]" data-node-id="70:418">
-            <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[normal] left-[calc(50%-510.5px)] text-[20px] text-black top-0 whitespace-nowrap" data-node-id="70:408" style={{ fontVariationSettings: "'opsz' 14" }}>
-              â€œProfessional, responsive, and easy to work with. Lynex delivered a high-quality and exceeded our expectations.â€
+            <p className="absolute font-dm font-light leading-[normal] left-[calc(50%-510.5px)] text-[20px] text-black top-0 whitespace-nowrap" data-node-id="70:408" style={{ fontVariationSettings: "'opsz' 14" }}>
+              “Professional, responsive, and easy to work with. Lynex delivered a high-quality and exceeded our expectations.”
             </p>
             <div className="-translate-x-1/2 absolute h-[32px] left-1/2 top-[50px] w-[163px]" data-node-id="70:417">
               <div className="absolute left-0 size-[32px] top-0" data-node-id="70:409">
                 <img alt="" className="absolute block max-w-none size-full" height="32" src={imgEllipse3} width="32" />
               </div>
               <div className="absolute h-[26px] left-[40px] top-[-8px] w-[146px]" data-node-id="70:416">
-                <p className="absolute font-['DM_Sans:Light',sans-serif] font-light h-[26px] leading-[32px] left-0 text-[16px] text-black top-0 tracking-[-0.8px] w-[94px]" data-node-id="70:411" style={{ fontVariationSettings: "'opsz' 14" }}>
+                <p className="absolute font-dm font-light h-[26px] leading-[32px] left-0 text-[16px] text-black top-0 tracking-[-0.8px] w-[94px]" data-node-id="70:411" style={{ fontVariationSettings: "'opsz' 14" }}>
                   Aisha Rahman
                 </p>
                 <div className="absolute h-[11px] left-0 top-[26px] w-[123px]" data-node-id="70:415">
-                  <p className="absolute font-['DM_Sans:Light',sans-serif] font-light leading-[32px] left-0 text-[#636260] text-[10px] top-[-10px] tracking-[-0.5px] w-[99px]" data-node-id="70:412" style={{ fontVariationSettings: "'opsz' 14" }}>
+                  <p className="absolute font-dm font-light leading-[32px] left-0 text-[#636260] text-[10px] top-[-10px] tracking-[-0.5px] w-[99px]" data-node-id="70:412" style={{ fontVariationSettings: "'opsz' 14" }}>
                     Manager @Lotus Hotels
                   </p>
                   <div className="absolute bg-[#f73000] content-stretch flex h-[11px] items-center justify-center left-[104px] px-[3px] rounded-[73px] top-0" data-node-id="70:414">
-                    <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[32px] relative shrink-0 text-[10px] text-white tracking-[-0.5px] w-[13px]" data-node-id="70:413" style={{ fontVariationSettings: "'opsz' 14" }}>
+                    <p className="font-dm font-normal leading-[32px] relative shrink-0 text-[10px] text-white tracking-[-0.5px] w-[13px]" data-node-id="70:413" style={{ fontVariationSettings: "'opsz' 14" }}>
                       AU
                     </p>
                   </div>
@@ -479,12 +479,12 @@ export default function Desktop() {
         </div>
       </div>
       <div className="-translate-x-1/2 absolute h-[102px] left-1/2 top-[9212px] w-[916px]" data-node-id="70:426">
-        <p className="-translate-x-1/2 absolute font-['DM_Sans:Medium',sans-serif] font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="70:427" style={{ fontVariationSettings: "'opsz' 14" }}>
+        <p className="-translate-x-1/2 absolute font-dm font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" data-node-id="70:427" style={{ fontVariationSettings: "'opsz' 14" }}>
           <span className="leading-[normal]">{`We love what we do, and `}</span>
           <span className="font-cormorant font-medium italic leading-[normal]">they love the results.</span>
         </p>
         <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-1/2 px-[12px] py-[4px] rounded-[27px] top-0" data-node-id="70:428">
-          <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="70:429" style={{ fontVariationSettings: "'opsz' 14" }}>
+          <p className="font-dm font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" data-node-id="70:429" style={{ fontVariationSettings: "'opsz' 14" }}>
             TESTIMONIALS
           </p>
         </div>
