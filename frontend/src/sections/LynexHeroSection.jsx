@@ -1,4 +1,4 @@
-export default function LynexHeroSection({ assets }) {
+﻿export default function LynexHeroSection({ assets }) {
   return (
     <>
       <div className="-translate-x-1/2 absolute h-[65px] left-[calc(50%-0.5px)] top-[28px] w-[1121px]" data-node-id="37:4">
@@ -12,8 +12,8 @@ export default function LynexHeroSection({ assets }) {
             <img alt="" className="absolute h-[355.87%] left-[-130.69%] max-w-none top-[-93.95%] w-[361.01%]" src={assets.imgRedBlackMinimalisticSquareItSoftwareLogo1} />
           </div>
         </div>
-        <div className="-translate-x-1/2 absolute bg-white content-stretch flex font-dm font-normal gap-[32px] items-center leading-[normal] left-[calc(50%-0.5px)] not-italic px-[16px] py-[10px] rounded-[6px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] text-[12px] text-black top-[15px] whitespace-nowrap" data-node-id="2:2289">
-          <p className="relative shrink-0" data-node-id="2:2280">
+<div className="-translate-x-1/2 absolute bg-white flex items-center gap-8 left-1/2 top-[15px] px-4 py-[10px] rounded-md shadow-[0px_2px_5px_rgba(0,0,0,0.1)] text-black text-[12px] font-normal font-['Inter'] leading-normal whitespace-nowrap">
+  <p className="shrink-0">
             Lynex
           </p>
           <p className="relative shrink-0" data-node-id="2:2281">

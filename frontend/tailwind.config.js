@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         dm: ['"DM Sans"', 'sans-serif'],
         cormorant: ['"Cormorant Garamond"', 'serif'],
+        inter: ['Inter', 'sans-serif'],
       },
     },
   },
