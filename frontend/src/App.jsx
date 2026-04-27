@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import FigmaDesktop from './FigmaDesktop'
 
 const DESIGN_WIDTH = 1440
-const DESIGN_HEIGHT = 9314
+const DESIGN_HEIGHT = 10576
 
 function App() {
   const [scale, setScale] = useState(() => window.innerWidth / DESIGN_WIDTH)

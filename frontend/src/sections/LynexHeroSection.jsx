@@ -98,7 +98,7 @@
             </div>
             <div className="bg-black content-stretch flex items-center justify-center px-[4px] relative rounded-[17px] shrink-0" data-node-id="2:2327">
               <p className="font-dm font-normal leading-[normal] relative shrink-0 text-[#fcfcfc] text-[8px] text-center whitespace-nowrap" data-node-id="2:2326" style={{ fontVariationSettings: "'opsz' 14" }}>
-                4.8
+                5.0
               </p>
             </div>
           </div>
