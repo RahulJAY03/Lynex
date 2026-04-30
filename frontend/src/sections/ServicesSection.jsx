@@ -1,118 +1,91 @@
 ﻿function Tag({ src, label }) {
   return (
-    <div className="bg-[#f1f1f2] content-stretch flex gap-[8px] items-center px-[12px] py-[4px] rounded-[83px] shrink-0">
-      <img alt="" className="block size-[20px]" src={src} />
-      <p className="font-dm font-light leading-[32px] text-[16px] text-black whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>{label}</p>
+    <div className="inline-flex items-center gap-2 bg-[#f1f1f2] px-3 py-1 rounded-full">
+      <img alt="" className="shrink-0 size-5" src={src} />
+      <p className="font-dm font-light text-sm text-black whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>{label}</p>
+    </div>
+  )
+}
+
+function ServiceCard({ img, title, desc, tags, tickSrc }) {
+  return (
+    <div className="bg-white rounded-[12px] shadow-[0px_0px_12px_0px_rgba(0,0,0,0.1)] overflow-hidden flex flex-col md:flex-row">
+      {/* Image */}
+      <div className="md:w-[385px] md:shrink-0 h-48 md:h-auto relative m-4 md:m-8 rounded-[8px] overflow-hidden">
+        <img alt="" className="absolute inset-0 w-full h-full object-cover" src={img} />
+      </div>
+      {/* Text */}
+      <div className="flex flex-col justify-center px-6 md:px-0 md:py-8 pb-6 md:pr-8 gap-4">
+        <p className="font-dm font-medium text-2xl xl2:text-[32px] text-black" style={{ fontVariationSettings: "'opsz' 14" }}>{title}</p>
+        <p className="font-dm font-light text-[#616161] text-base xl2:text-[20px] leading-7 xl2:leading-8" style={{ fontVariationSettings: "'opsz' 14" }}>{desc}</p>
+        <div className="flex flex-wrap gap-2 mt-1">
+          {tags.map(tag => <Tag key={tag} src={tickSrc} label={tag} />)}
+        </div>
+      </div>
     </div>
   )
 }
 
 export default function ServicesSection({ assets }) {
+  const services = [
+    {
+      img: assets.imgFrame27,
+      title: 'Brand Identity',
+      desc: "We help founders shape how their brand looks, sounds, and feels. From logo to typography to colors, we craft a system that's distinct, aligned, and built to grow with your business.",
+      tags: ['Background Research', 'Business Profiles', 'Colour Palette', 'Logo'],
+    },
+    {
+      img: assets.imgFrame28,
+      title: 'UI/UX Design',
+      desc: "We create intuitive, scalable interfaces that not only look good but actually guide users and drive results. Whether it's for mobile apps, websites, or SaaS platforms we design products people love to use.",
+      tags: ['Wireframing', 'User Flow', 'Design System', 'Prototyping', 'UX Research'],
+    },
+    {
+      img: assets.imgFrame29,
+      title: 'Web Development',
+      desc: 'We build custom websites using powerful no code tools meaning you get beautiful, fast, and functional builds without the dev lag. Ideal for marketing sites, portfolios, landing pages, or simple platforms.',
+      tags: ['Responsive', 'Optimization', 'CMS Setup', 'Domain Setup', 'Hosting', 'SEO'],
+    },
+    {
+      img: assets.imgFrame30,
+      title: 'Website Maintenance',
+      desc: 'We provide ongoing website maintenance to keep your site secure, updated, and performing at its best. From regular updates to performance monitoring, we ensure your website stays fast, reliable, and optimized.',
+      tags: ['Security Updates', 'Performance Optimization', 'Bug Fixes & 24*7 Support', 'Content Updates', 'Technical Improvements'],
+    },
+    {
+      img: assets.imgFrame31,
+      title: 'Presentation Design',
+      desc: 'We craft strategic presentation decks that transform ideas into clear, persuasive visual stories. From pitch decks to corporate reports, we design slides that are impactful, structured, and built to impress.',
+      tags: ['Custom Slide Design', 'Visual Storytelling', 'Sales Presentations', 'Corporate Reports', 'Brand-Aligned Layouts'],
+    },
+  ]
+
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative w-full">
-      {/* Header */}
-      <div className="h-[164px] relative shrink-0 w-full">
-        <div className="-translate-x-1/2 absolute font-dm font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[62px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>
-          <p className="mb-0">
-            <span className="leading-[normal]">We help brands show up with </span>
-            <span className="font-cormorant font-medium italic leading-[normal]">Clarity,</span>
-          </p>
-          <p>
-            <span className="font-cormorant font-medium italic leading-[normal]">Confidence,</span>
-            <span className="leading-[normal]"> and </span>
-            <span className="font-cormorant font-medium italic leading-[normal]">Design</span>
-            <span className="leading-[normal]"> that actually work</span>
-          </p>
+    <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-14 xl2:px-[224px] py-16 xl2:py-[80px]">
+      {/* Section header */}
+      <div className="flex flex-col items-center gap-3 mb-10">
+        <div className="border-[#616161] border-[0.5px] border-solid flex items-center justify-center px-3 py-1 rounded-full">
+          <p className="font-dm font-normal text-xs text-black tracking-[2.4px]" style={{ fontVariationSettings: "'opsz' 14" }}>SERVICE</p>
         </div>
-        <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-1/2 px-[12px] py-[4px] rounded-[27px] top-[12px]">
-          <p className="font-dm font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>SERVICE</p>
-        </div>
+        <h2
+          className="font-dm font-medium text-2xl sm:text-3xl xl2:text-[48px] text-black text-center leading-tight"
+          style={{ fontVariationSettings: "'opsz' 14" }}
+        >
+          We help brands show up with{' '}
+          <span className="font-cormorant italic">Clarity,</span>
+          <br className="hidden sm:block" />
+          <span className="font-cormorant italic">Confidence,</span>
+          {' '}and{' '}
+          <span className="font-cormorant italic">Design</span>
+          {' '}that actually work
+        </h2>
       </div>
 
-      {/* Card 1: Brand Identity */}
-      <div className="bg-white h-[486px] overflow-clip relative rounded-[12px] shadow-[0px_8px_25px_8px_rgba(0,0,0,0.05)] shrink-0 w-full">
-        <div className="-translate-y-1/2 absolute h-[422px] left-[32px] overflow-clip rounded-[8px] top-1/2 w-[368px]">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={assets.imgFrame27} />
-        </div>
-        <p className="absolute font-dm font-medium leading-[normal] left-[432px] text-[32px] text-black top-[32px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>Brand Identity</p>
-        <p className="absolute font-dm font-light leading-[32px] left-[432px] text-[#616161] text-[20px] top-[102px] w-[511px]" style={{ fontVariationSettings: "'opsz' 14" }}>We help founders shape how their brand looks, sounds, and feels. From logo to typography to colors, we craft a system that&apos;s distinct, aligned, and built to grow with your business.</p>
-        <div className="absolute flex flex-wrap gap-[8px] left-[432px] bottom-[32px] w-[511px]">
-          <Tag src={assets.imgHugeiconsTick3} label="Background Research" />
-          <Tag src={assets.imgHugeiconsTick3} label="Business Profiles" />
-          <Tag src={assets.imgHugeiconsTick3} label="Colour Palette" />
-          <Tag src={assets.imgHugeiconsTick3} label="Logo" />
-        </div>
-      </div>
-
-      {/* Card 2: UI/UX Design */}
-      <div className="bg-white h-[486px] overflow-clip relative rounded-[12px] shadow-[0px_8px_25px_8px_rgba(0,0,0,0.05)] shrink-0 w-full">
-        <div className="-translate-y-1/2 absolute h-[422px] left-[32px] overflow-clip rounded-[8px] top-1/2 w-[368px]">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={assets.imgFrame28} />
-          <div className="-translate-y-1/2 absolute h-[442px] left-[-9px] rounded-[8px] top-1/2 w-[385px]">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={assets.imgFrame29} />
-          </div>
-        </div>
-        <p className="absolute font-dm font-medium leading-[normal] left-[432px] text-[32px] text-black top-[32px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>UI/UX Design</p>
-        <p className="absolute font-dm font-light leading-[32px] left-[432px] text-[#616161] text-[20px] top-[102px] w-[511px]" style={{ fontVariationSettings: "'opsz' 14" }}>We create intuitive, scalable interfaces that not only look good but actually guide users and drive results. Whether it&apos;s for mobile apps, websites, or SaaS platforms we design products people love to use.</p>
-        <div className="absolute flex flex-wrap gap-[8px] left-[432px] bottom-[32px] w-[511px]">
-          <Tag src={assets.imgHugeiconsTick3} label="Wireframing" />
-          <Tag src={assets.imgHugeiconsTick3} label="User Flow" />
-          <Tag src={assets.imgHugeiconsTick3} label="Design System" />
-          <Tag src={assets.imgHugeiconsTick3} label="Prototyping" />
-          <Tag src={assets.imgHugeiconsTick3} label="UX Research" />
-        </div>
-      </div>
-
-      {/* Card 3: Web Development */}
-      <div className="bg-white h-[486px] overflow-clip relative rounded-[12px] shadow-[0px_8px_25px_8px_rgba(0,0,0,0.05)] shrink-0 w-full">
-        <div className="-translate-y-1/2 absolute h-[422px] left-[32px] overflow-clip rounded-[8px] top-1/2 w-[368px]">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={assets.imgFrame28} />
-          <div className="-translate-y-1/2 absolute h-[442px] left-[-9px] rounded-[8px] top-1/2 w-[385px]">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={assets.imgFrame30} />
-          </div>
-        </div>
-        <p className="absolute font-dm font-medium leading-[normal] left-[432px] text-[32px] text-black top-[32px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>Web Development</p>
-        <p className="absolute font-dm font-light leading-[32px] left-[432px] text-[#616161] text-[20px] top-[102px] w-[511px]" style={{ fontVariationSettings: "'opsz' 14" }}>We build custom websites using powerful no-code tools meaning you get beautiful, fast, and functional builds without the dev lag. Ideal for marketing sites, portfolios, landing pages, or simple platforms.</p>
-        <div className="absolute flex flex-wrap gap-[8px] left-[432px] bottom-[32px] w-[511px]">
-          <Tag src={assets.imgHugeiconsTick3} label="Responsive" />
-          <Tag src={assets.imgHugeiconsTick3} label="Optimization" />
-          <Tag src={assets.imgHugeiconsTick3} label="CMS Setup" />
-          <Tag src={assets.imgHugeiconsTick3} label="Domain Setup" />
-          <Tag src={assets.imgHugeiconsTick3} label="Hosting" />
-          <Tag src={assets.imgHugeiconsTick3} label="SEO" />
-        </div>
-      </div>
-
-      {/* Card 4: Website Maintenance */}
-      <div className="bg-white h-[486px] overflow-clip relative rounded-[12px] shadow-[0px_8px_25px_8px_rgba(0,0,0,0.05)] shrink-0 w-full">
-        <div className="-translate-y-1/2 absolute h-[422px] left-[32px] overflow-clip rounded-[8px] top-1/2 w-[368px]">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={assets.imgFrame31} />
-        </div>
-        <p className="absolute font-dm font-medium leading-[normal] left-[432px] text-[32px] text-black top-[32px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>Website Maintenance</p>
-        <p className="absolute font-dm font-light leading-[32px] left-[432px] text-[#616161] text-[20px] top-[102px] w-[511px]" style={{ fontVariationSettings: "'opsz' 14" }}>We provide ongoing website maintenance to keep your site secure, updated, and performing at its best. From regular updates to performance monitoring, we ensure your website stays fast and reliable.</p>
-        <div className="absolute flex flex-wrap gap-[8px] left-[432px] bottom-[32px] w-[511px]">
-          <Tag src={assets.imgHugeiconsTick3} label="Security Updates" />
-          <Tag src={assets.imgHugeiconsTick3} label="Performance Optimization" />
-          <Tag src={assets.imgHugeiconsTick3} label="Bug Fixes & 24*7 Support" />
-          <Tag src={assets.imgHugeiconsTick3} label="Content Updates" />
-          <Tag src={assets.imgHugeiconsTick3} label="Technical Improvements" />
-        </div>
-      </div>
-
-      {/* Card 5: Presentation Design */}
-      <div className="bg-white h-[486px] overflow-clip relative rounded-[12px] shadow-[0px_8px_25px_8px_rgba(0,0,0,0.05)] shrink-0 w-full">
-        <div className="-translate-y-1/2 absolute h-[422px] left-[32px] overflow-clip rounded-[8px] top-1/2 w-[368px]">
-          <img alt="" className="absolute h-full left-[-37.63%] max-w-none top-[0.03%] w-[172.11%]" src={assets.imgFrame32} />
-        </div>
-        <p className="absolute font-dm font-medium leading-[normal] left-[432px] text-[32px] text-black top-[32px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>Presentation Design</p>
-        <p className="absolute font-dm font-light leading-[32px] left-[432px] text-[#616161] text-[20px] top-[102px] w-[511px]" style={{ fontVariationSettings: "'opsz' 14" }}>We craft strategic presentation decks that transform ideas into clear, persuasive visual stories. From pitch decks to corporate reports, we design slides that are impactful, structured, and built to impress.</p>
-        <div className="absolute flex flex-wrap gap-[8px] left-[432px] bottom-[32px] w-[511px]">
-          <Tag src={assets.imgHugeiconsTick3} label="Custom Slide Design" />
-          <Tag src={assets.imgHugeiconsTick3} label="Brand-Aligned Layouts" />
-          <Tag src={assets.imgHugeiconsTick3} label="Sales Presentations" />
-          <Tag src={assets.imgHugeiconsTick3} label="Corporate Reports" />
-          <Tag src={assets.imgHugeiconsTick3} label="Visual Storytelling" />
-        </div>
+      {/* Cards */}
+      <div className="flex flex-col gap-8">
+        {services.map(s => (
+          <ServiceCard key={s.title} {...s} tickSrc={assets.imgHugeiconsTick3} />
+        ))}
       </div>
     </div>
   )

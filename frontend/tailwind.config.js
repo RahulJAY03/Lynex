@@ -8,6 +8,10 @@ export default {
         cormorant: ['"Cormorant Garamond"', 'serif'],
         inter: ['Inter', 'sans-serif'],
       },
+      screens: {
+        xl2: '1440px',
+        '3xl': '1920px',
+      },
     },
   },
   plugins: [],

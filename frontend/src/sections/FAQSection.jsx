@@ -31,20 +31,19 @@ export default function FAQSection({ assets }) {
   const [openIdx, setOpenIdx] = useState(0)
 
   return (
-    <div className="content-stretch flex flex-col gap-[40px] items-center relative w-full">
+    <div className="max-w-[736px] mx-auto px-5 sm:px-8 py-16 xl2:py-[80px] flex flex-col gap-10 items-center">
       {/* Header */}
-      <div className="h-[102px] relative shrink-0 w-[538px]">
-        <p className="-translate-x-1/2 absolute font-dm font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>
-          <span className="leading-[normal]">Frequently </span>
-          <span className="font-cormorant font-medium italic leading-[normal]">Asked Questions</span>
-        </p>
-        <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[calc(50%+0.5px)] px-[12px] py-[4px] rounded-[27px] top-0">
-          <p className="font-dm font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>FAQ</p>
+      <div className="flex flex-col items-center gap-3">
+        <div className="border-[#616161] border-[0.5px] border-solid flex items-center justify-center px-3 py-1 rounded-full">
+          <p className="font-dm font-normal text-xs text-black tracking-[2.4px]" style={{ fontVariationSettings: "'opsz' 14" }}>FAQ</p>
         </div>
+        <h2 className="font-dm font-medium text-2xl sm:text-3xl xl2:text-[48px] text-black text-center leading-tight" style={{ fontVariationSettings: "'opsz' 14" }}>
+          Frequently <span className="font-cormorant italic">Asked Questions</span>
+        </h2>
       </div>
 
       {/* FAQ items */}
-      <div className="content-stretch flex flex-col gap-[8px] relative shrink-0 w-full">
+      <div className="flex flex-col gap-2 w-full">
         {faqs.map((item, idx) => {
           const isOpen = openIdx === idx
           return (

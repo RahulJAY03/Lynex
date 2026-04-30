@@ -1,4 +1,4 @@
-﻿import LynexHeroSection from './sections/LynexHeroSection'
+import LynexHeroSection from './sections/LynexHeroSection'
 import ServicesSection from './sections/ServicesSection'
 import BenefitsSection from './sections/BenefitsSection'
 import OurWorkSection from './sections/OurWorkSection'
@@ -62,47 +62,53 @@ export default function FigmaDesktop() {
   }
 
   return (
-    <div className="bg-white relative size-full">
+    <div className="bg-white w-full">
       <LynexHeroSection assets={assets} />
 
-      <div className="absolute left-[224px] top-[1350px] w-[992px]">
+      <section id="services">
         <ServicesSection assets={assets} />
-      </div>
+      </section>
 
-      <div className="absolute left-[223px] top-[4272px] w-[994px]">
+      <section id="benefits">
         <BenefitsSection assets={assets} />
-      </div>
+      </section>
 
-      <div className="absolute left-[221px] top-[4982px] w-[995px]">
+      <section id="ourwork">
         <OurWorkSection assets={assets} />
-      </div>
+      </section>
 
-      <div className="absolute left-[158px] top-[6412px] w-[1120px]">
+      <section id="howitworks">
         <HowItWorksSection />
-      </div>
+      </section>
 
-      <div className="absolute left-[160px] top-[7200px] w-[1120px]">
+      <section id="pricing">
         <PricingSection assets={assets} />
-      </div>
+      </section>
 
-      <div className="absolute left-[160px] top-[8153px] w-[1120px]">
+      <section id="testimonials">
         <TestimonialsSection assets={assets} />
-      </div>
+      </section>
 
-      <div className="absolute left-[352px] top-[8975px] w-[736px] z-[10]">
+      <section id="faq">
         <FAQSection assets={assets} />
+      </section>
+
+      {/* LYNEX watermark */}
+      <div className="overflow-hidden text-center py-4 xl2:py-8">
+        <p
+          className="font-dm font-medium"
+          style={{
+            fontSize: 'clamp(40px, 8.9vw, 128px)',
+            letterSpacing: 'clamp(8px, 13.2vw, 189.44px)',
+            color: 'rgba(217,217,217,0.15)',
+            fontVariationSettings: "'opsz' 14",
+          }}
+        >
+          LYNEX
+        </p>
       </div>
 
-      <p
-        className="absolute font-dm font-medium leading-[normal] text-center whitespace-nowrap z-[20]"
-        style={{ left: '150px', top: '9776px', width: '1134px', fontSize: '128px', letterSpacing: '189.44px', color: 'rgba(217,217,217,0.15)', fontVariationSettings: "'opsz' 14" }}
-      >
-        LYNEX
-      </p>
-
-      <div className="absolute left-0 top-[9856px] w-[1440px] z-[10]">
-        <FooterSection assets={assets} />
-      </div>
+      <FooterSection assets={assets} />
     </div>
   )
 }

@@ -11,13 +11,13 @@
 
 function TestCard({ quote, name, role, avatar }) {
   return (
-    <div className="bg-white border-[#d2d2d2] border-[0.5px] border-solid h-[136px] relative rounded-[8px] shrink-0 w-[350px]">
-      <p className="absolute font-dm font-light leading-[18px] left-[23.5px] text-[#616161] text-[12px] top-[15.5px] w-[302px]" style={{ fontVariationSettings: "'opsz' 14" }}>{quote}</p>
-      <div className="absolute flex gap-[8px] items-center left-[23.5px] top-[87.5px]">
-        <img alt="" className="block rounded-full size-[32px]" src={avatar} />
-        <div className="flex flex-col gap-[2px]">
-          <p className="font-dm font-normal leading-[normal] text-[12px] text-black tracking-[-0.6px]" style={{ fontVariationSettings: "'opsz' 14" }}>{name}</p>
-          <p className="font-dm font-light leading-[normal] text-[10px] text-[#636260]" style={{ fontVariationSettings: "'opsz' 14" }}>{role}</p>
+    <div className="bg-white border-[#d2d2d2] border-[0.5px] border-solid rounded-[8px] p-4 flex flex-col gap-3 shrink-0 w-full md:w-[350px]">
+      <p className="font-dm font-light leading-[18px] text-[#616161] text-xs" style={{ fontVariationSettings: "'opsz' 14" }}>{quote}</p>
+      <div className="flex items-center gap-2 mt-auto">
+        <img alt="" className="block rounded-full size-8" src={avatar} />
+        <div className="flex flex-col gap-0.5">
+          <p className="font-dm font-normal text-xs text-black tracking-[-0.6px]" style={{ fontVariationSettings: "'opsz' 14" }}>{name}</p>
+          <p className="font-dm font-light text-[10px] text-[#636260]" style={{ fontVariationSettings: "'opsz' 14" }}>{role}</p>
         </div>
       </div>
     </div>
@@ -25,38 +25,29 @@ function TestCard({ quote, name, role, avatar }) {
 }
 
 export default function TestimonialsSection({ assets }) {
-  const rowOffsets = [0, -93, -200, -17]
-  const rowTops = [0, 152, 304, 456]
-
   return (
-    <div className="content-stretch flex flex-col gap-[40px] items-center relative w-full">
+    <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-14 xl2:px-[160px] py-16 xl2:py-[80px]">
       {/* Header */}
-      <div className="h-[102px] relative shrink-0 w-[916px]">
-        <p className="-translate-x-1/2 absolute font-dm font-medium leading-[0] left-1/2 text-[48px] text-black text-center top-[40px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>
-          <span className="leading-[normal]">We love what we do, and </span>
-          <span className="font-cormorant font-medium italic leading-[normal]">they love the results.</span>
-        </p>
-        <div className="-translate-x-1/2 absolute border-[#616161] border-[0.5px] border-solid content-stretch flex items-center justify-center left-1/2 px-[12px] py-[4px] rounded-[27px] top-0">
-          <p className="font-dm font-normal leading-[normal] relative shrink-0 text-[12px] text-black tracking-[2.4px] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>TESTIMONIALS</p>
+      <div className="flex flex-col items-center gap-3 mb-10">
+        <div className="border-[#616161] border-[0.5px] border-solid flex items-center justify-center px-3 py-1 rounded-full">
+          <p className="font-dm font-normal text-xs text-black tracking-[2.4px]" style={{ fontVariationSettings: "'opsz' 14" }}>TESTIMONIALS</p>
         </div>
+        <h2 className="font-dm font-medium text-2xl sm:text-3xl xl2:text-[48px] text-black text-center leading-tight" style={{ fontVariationSettings: "'opsz' 14" }}>
+          We love what we do, and{' '}
+          <span className="font-cormorant italic">they love the results.</span>
+        </h2>
       </div>
 
-      {/* Staggered rows */}
-      <div className="h-[600px] overflow-hidden relative shrink-0 w-full">
-        {rowTops.map((top, rowIdx) => (
+      {/* Desktop: staggered rows (hidden on mobile) */}
+      <div className="hidden md:block relative overflow-hidden" style={{ height: '600px' }}>
+        {[0, -93, -200, -17].map((offsetLeft, rowIdx) => (
           <div
             key={rowIdx}
-            className="absolute flex gap-[16px]"
-            style={{ top: `${top}px`, left: `${rowOffsets[rowIdx]}px` }}
+            className="absolute flex gap-4"
+            style={{ top: `${rowIdx * 152}px`, left: `${offsetLeft}px` }}
           >
             {testimonials.slice(rowIdx * 2, rowIdx * 2 + 4).map((t, i) => (
-              <TestCard
-                key={i}
-                quote={t.quote}
-                name={t.name}
-                role={t.role}
-                avatar={assets.imgEllipse4}
-              />
+              <TestCard key={i} quote={t.quote} name={t.name} role={t.role} avatar={assets.imgEllipse4} />
             ))}
           </div>
         ))}
@@ -65,6 +56,15 @@ export default function TestimonialsSection({ assets }) {
         {/* Right fade */}
         <div className="absolute right-0 top-0 h-full w-[135px] pointer-events-none" style={{ background: 'linear-gradient(to left, white 0%, rgba(255,255,255,0) 100%)' }} />
       </div>
+
+      {/* Mobile: simple 1-col grid */}
+      <div className="md:hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {testimonials.map((t, i) => (
+          <TestCard key={i} quote={t.quote} name={t.name} role={t.role} avatar={assets.imgEllipse4} />
+        ))}
+      </div>
     </div>
   )
 }
+
+
