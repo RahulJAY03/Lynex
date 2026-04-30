@@ -1,6 +1,6 @@
 export default function FooterSection({ assets }) {
   return (
-    <footer className="bg-white border-t border-[#d2d2d2]">
+    <footer className="bg-white">
       <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-14 xl2:px-[160px] py-16 xl2:py-[138px]">
         <div className="flex flex-col md:flex-row gap-12 md:gap-0 md:justify-between">
           {/* Left: Logo */}
