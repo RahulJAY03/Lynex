@@ -1,4 +1,11 @@
-﻿export default function LynexHeroSection({ assets }) {
+﻿const DESIGN_WIDTH = 1440
+
+function scrollToSection(designY) {
+  const scale = window.innerWidth / DESIGN_WIDTH
+  window.scrollTo({ top: designY * scale, behavior: 'smooth' })
+}
+
+export default function LynexHeroSection({ assets }) {
   return (
     <>
       <div className="-translate-x-1/2 absolute h-[65px] left-[calc(50%-0.5px)] top-[28px] w-[1121px]" data-node-id="37:4">
@@ -13,38 +20,38 @@
           </div>
         </div>
 <div className="-translate-x-1/2 absolute bg-white flex items-center gap-8 left-1/2 top-[15px] px-4 py-[10px] rounded-md shadow-[0px_2px_5px_rgba(0,0,0,0.1)] text-black text-[12px] font-normal font-['Inter'] leading-normal whitespace-nowrap">
-  <p className="shrink-0">
+  <p className="shrink-0 cursor-pointer" onClick={() => scrollToSection(0)}>
             Lynex
           </p>
-          <p className="relative shrink-0" data-node-id="2:2281">
+          <p className="relative shrink-0 cursor-pointer" data-node-id="2:2281" onClick={() => scrollToSection(1350)}>
             Services
           </p>
-          <p className="relative shrink-0" data-node-id="2:2350">
+          <p className="relative shrink-0 cursor-pointer" data-node-id="2:2350" onClick={() => scrollToSection(4272)}>
             Benefits
           </p>
-          <p className="relative shrink-0" data-node-id="2:2283">
+          <p className="relative shrink-0 cursor-pointer" data-node-id="2:2283" onClick={() => scrollToSection(8153)}>
             Testimonials
           </p>
-          <p className="relative shrink-0" data-node-id="2:2285">
+          <p className="relative shrink-0 cursor-pointer" data-node-id="2:2285" onClick={() => scrollToSection(7200)}>
             Pricing
           </p>
-          <p className="relative shrink-0" data-node-id="2:2287">
+          <p className="relative shrink-0 cursor-pointer" data-node-id="2:2287" onClick={() => scrollToSection(8975)}>
             FAQ
           </p>
         </div>
-        <div className="absolute bg-[#f73000] content-stretch flex items-center justify-center px-[24px] py-[10px] right-0 rounded-[6px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-[15px]" data-node-id="2:2291">
+        <div className="absolute bg-[#f73000] content-stretch flex items-center justify-center px-[24px] py-[10px] right-0 rounded-[6px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-[15px] cursor-pointer" data-node-id="2:2291" onClick={() => scrollToSection(9856)}>
           <p className="font-dm font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="2:2290">
             Contact Us
           </p>
         </div>
       </div>
       <div className="-translate-x-1/2 absolute h-[35px] left-[calc(50%+0.5px)] top-[451px] w-[233px]" data-node-id="2:2303">
-        <div className="absolute bg-[#f73000] content-stretch flex items-center justify-center left-0 px-[24px] py-[10px] rounded-[6px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-0" data-node-id="2:2297">
+        <div className="absolute bg-[#f73000] content-stretch flex items-center justify-center left-0 px-[24px] py-[10px] rounded-[6px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-0 cursor-pointer" data-node-id="2:2297" onClick={() => scrollToSection(9856)}>
           <p className="font-dm font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="2:2298">
             Contact Us
           </p>
         </div>
-        <div className="absolute bg-white border-[#f73000] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[121px] px-[24px] py-[10px] rounded-[6px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-0" data-node-id="2:2300">
+        <div className="absolute bg-white border-[#f73000] border-[0.5px] border-solid content-stretch flex items-center justify-center left-[121px] px-[24px] py-[10px] rounded-[6px] shadow-[0px_2px_5px_0px_rgba(0,0,0,0.1)] top-0 cursor-pointer" data-node-id="2:2300" onClick={() => scrollToSection(7200)}>
           <p className="font-dm font-normal leading-[normal] not-italic relative shrink-0 text-[#f73000] text-[12px] whitespace-nowrap" data-node-id="2:2301">
             See Pricing
           </p>
