@@ -11,13 +11,13 @@
 
 function TestCard({ quote, name, role, avatar }) {
   return (
-    <div className="bg-white border-[#d2d2d2] border-[0.5px] border-solid rounded-[8px] p-4 flex flex-col gap-3 shrink-0 w-full md:w-[350px]">
-      <p className="font-dm font-light leading-[18px] text-[#616161] text-xs" style={{ fontVariationSettings: "'opsz' 14" }}>{quote}</p>
-      <div className="flex items-center gap-2 mt-auto">
-        <img alt="" className="block rounded-full size-8" src={avatar} />
-        <div className="flex flex-col gap-0.5">
-          <p className="font-dm font-normal text-xs text-black tracking-[-0.6px]" style={{ fontVariationSettings: "'opsz' 14" }}>{name}</p>
-          <p className="font-dm font-light text-[10px] text-[#636260]" style={{ fontVariationSettings: "'opsz' 14" }}>{role}</p>
+    <div className="bg-white border-[#d2d2d2] border-[0.5px] border-solid rounded-[8px] overflow-hidden shrink-0 w-full sm:w-[350px] relative" style={{ height: '136px' }}>
+      <p className="absolute font-dm font-light leading-[normal] text-[#616161] text-[12px]" style={{ left: '23.5px', top: '15.5px', width: '302px', fontVariationSettings: "'opsz' 14" }}>{quote}</p>
+      <div className="absolute flex gap-2 items-center" style={{ left: '23.5px', top: '87.5px' }}>
+        <img alt="" className="block rounded-full shrink-0" width="32" height="32" src={avatar} />
+        <div>
+          <p className="font-dm font-light text-[12px] text-black tracking-[-0.6px] leading-[normal] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>{name}</p>
+          <p className="font-dm font-light text-[10px] text-[#636260] tracking-[-0.5px] leading-[normal] whitespace-nowrap" style={{ fontVariationSettings: "'opsz' 14" }}>{role}</p>
         </div>
       </div>
     </div>
@@ -43,12 +43,13 @@ export default function TestimonialsSection({ assets }) {
         {[0, -93, -200, -17].map((offsetLeft, rowIdx) => (
           <div
             key={rowIdx}
-            className="absolute flex gap-4"
+            className="absolute flex gap-[16px]"
             style={{ top: `${rowIdx * 152}px`, left: `${offsetLeft}px` }}
           >
-            {testimonials.slice(rowIdx * 2, rowIdx * 2 + 4).map((t, i) => (
-              <TestCard key={i} quote={t.quote} name={t.name} role={t.role} avatar={assets.imgEllipse4} />
-            ))}
+            {[0, 1, 2, 3].map((i) => {
+              const t = testimonials[(rowIdx * 3 + i) % testimonials.length]
+              return <TestCard key={i} quote={t.quote} name={t.name} role={t.role} avatar={assets.imgEllipse4} />
+            })}
           </div>
         ))}
         {/* Left fade */}
