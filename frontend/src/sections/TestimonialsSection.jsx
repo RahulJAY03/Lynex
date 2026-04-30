@@ -28,11 +28,11 @@ export default function TestimonialsSection({ assets }) {
   return (
     <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-14 xl2:px-[160px] py-16 xl2:py-[80px]">
       {/* Header */}
-      <div className="flex flex-col items-center gap-3 mb-10">
+      <div className="flex flex-col items-center gap-3 xl2:gap-[18px] mb-10 xl2:mb-12">
         <div className="border-[#616161] border-[0.5px] border-solid flex items-center justify-center px-3 py-1 rounded-full">
           <p className="font-dm font-normal text-xs text-black tracking-[2.4px]" style={{ fontVariationSettings: "'opsz' 14" }}>TESTIMONIALS</p>
         </div>
-        <h2 className="font-dm font-medium text-2xl sm:text-3xl xl2:text-[48px] text-black text-center leading-tight" style={{ fontVariationSettings: "'opsz' 14" }}>
+        <h2 className="font-dm font-medium text-2xl sm:text-3xl xl2:text-[48px] text-black text-center leading-tight xl2:leading-[62px]" style={{ fontVariationSettings: "'opsz' 14" }}>
           We love what we do, and{' '}
           <span className="font-cormorant italic">they love the results.</span>
         </h2>

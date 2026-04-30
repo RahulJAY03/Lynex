@@ -4,7 +4,7 @@
   return (
     <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-14 xl2:px-[224px] py-16 xl2:py-[80px]">
       {/* Header */}
-      <div className="flex items-center justify-between mb-10">
+      <div className="flex items-center justify-between mb-10 xl2:mb-12">
         <h2 className="font-dm font-medium text-2xl sm:text-3xl xl2:text-[48px] text-black leading-tight" style={{ fontVariationSettings: "'opsz' 14" }}>
           Some of Our <span className="font-cormorant font-medium italic">Work.</span>
         </h2>

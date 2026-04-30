@@ -100,7 +100,7 @@ export default function LynexHeroSection({ assets }) {
 
         {/* Headline */}
         <h1
-          className="font-dm font-medium text-3xl sm:text-4xl xl2:text-[48px] text-black leading-tight mb-3"
+          className="font-dm font-medium text-3xl sm:text-4xl xl2:text-[48px] text-black leading-tight xl2:leading-[62px] mb-4 xl2:mb-5"
           style={{ fontVariationSettings: "'opsz' 14" }}
         >
           We Don&apos;t Just Design Websites.
