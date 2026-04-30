@@ -39,7 +39,7 @@ export default function ServicesSection({ assets }) {
       img: assets.imgFrame31,
       title: 'Presentation Design',
       desc: "We craft strategic presentation decks that transform ideas into clear, persuasive visual stories. From pitch decks to corporate reports, we design slides that are impactful, structured, and built to impress investors, clients, and stakeholders.",
-      tags: ['Custom Slide Design', 'Visual Storytelling', 'Brand-Aligned Layouts', 'Sales Presentations', 'Corporate Reports'],
+      tags: ['Custom Slide Design', 'Brand-Aligned Layouts', 'Sales Presentations', 'Corporate Reports', 'Visual Storytelling'],
     },
   ]
 

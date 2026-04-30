@@ -9,7 +9,7 @@
           Some of Our <span className="font-cormorant font-medium italic">Work.</span>
         </h2>
         <div className="border-[#616161] border-[0.5px] border-solid hidden sm:flex items-center justify-center px-3 py-1 rounded-full">
-          <p className="font-dm font-normal text-xs text-black tracking-[2.4px]" style={{ fontVariationSettings: "'opsz' 14" }}>OUR WORK</p>
+          <p className="font-dm font-normal text-xs text-black tracking-[2.4px]" style={{ fontVariationSettings: "'opsz' 14" }}>TESTIMONIALS</p>
         </div>
       </div>
 
